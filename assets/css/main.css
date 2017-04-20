@@ -1,0 +1,44 @@
+.box{
+	box-sizing: content-box;
+	width: 220px;
+	height: 270px;
+	padding: 40px 18px 13px 18px;
+	box-shadow: 8px 10px 14px -8px #CECECE;
+	color: #777777;
+	float: left;
+	text-align: center;
+	background-color: #fbfbfb;
+	padding-top: 30px;
+	margin: 5px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h5{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	font-style: italic;
+	color: #777777;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+
+.box:hover{
+	padding-top: 20px;
+	color: white;
+	background-color: #fff;
+	-webkit-transform: scale(1.1);
+	color: #7aa2f4;
+	-webkit-transition: all 0.5s ease-in-out;
+}
